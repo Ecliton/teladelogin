@@ -29,11 +29,11 @@ localStorage.setItem("login",JSON.stringify(login))
   
   alert(`Login: ${txt}; Senha: ${num} adicionados!`)
   
-  window.location.replace("/index.html")
+  window.location.replace("../index.html")
 }
 })
 
 document.getElementById('txtVoltar').addEventListener('click', function(){
   
-  window.location.replace("/index.html")
+  window.location.replace("../index.html")
 })
