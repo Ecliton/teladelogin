@@ -12,7 +12,7 @@ document.getElementById('btnEntrar').addEventListener('click', function (){
     alert("Login incorreto")
   }else{
     alert("Você passou!!")
-    window.location.replace("/Oficial/pagOficial.html")
+    window.location.replace("pagOficial.html")
   }
   
 })
